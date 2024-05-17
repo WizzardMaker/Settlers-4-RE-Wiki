@@ -6,7 +6,8 @@
 
 ```cpp
 class CConfigVar {
-    // Unknown...
+    // Probably some type informatione (e.g. static, dynamic, float, int, string, etc.)
+    // These are defined as individual chars, but the compiler has optimized their assignments to a single DWORD, so beware
     char field_4;
     char field_5;
     char field_6;
